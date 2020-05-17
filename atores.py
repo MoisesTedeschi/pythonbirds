@@ -152,6 +152,7 @@ class Passaro(Ator):
 
         self.y = y_atual
 
+
     def _calcular_posicao_horizontal(self, delta_t):
         x_atual = self._x_inicial
         # Transformando o ângulo - O ângulo é passado em graus e deve ser transformado em radianos.
